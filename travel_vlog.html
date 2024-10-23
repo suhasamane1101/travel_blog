@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /*CSS */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .navbar-custom {
+            background-color: #f8f9fa;
+        }
+        .home-section, .destinations-section, .tips-section, .gallery-section, .contact-section {
+            padding: 40px;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+        .footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .gallery-slider img {
+            width: 100%;
+            height: auto;
+        }
+
+        
+    </style>
+
+    
+</head>
+<body>
+
+  <!-- Header section of webpage -->
+<header class="header">
+    <h1>Travel Blog</h1>
+    <p>Exploring the world, one destination at a time</p>
+</header>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+        <a class="navbar-brand" href="#">Travel Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#tips">Travel Tips</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- webpage sections -->
+
+
+<!-- 1..Home Section -->
+<section id="home" class="home-section">
+    <div class="container">
+        <h2>Welcome to My Travel Blog</h2>
+        <p>Discover amazing travel stories and helpful tips to make your next trip wonderful</p>
+        <div class="featured-posts">
+            <h3>Featured Travel Posts</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Journey Through the Alps</h4>
+                    <p>An exploration of Europe's renowned mountain range.</p>
+                    <div class="more-content" style="display: none;">
+                        <p>The Alps span eight countries in Europe, offering breathtaking views and a range of outdoor pursuits, from winter sports like skiing and snowboarding to summer activities such as hiking and biking.</p>
+                    </div>
+                    <button class="btn btn-primary read-more-btn">Read More</button>
+                </div>
+                <div class="col-md-4">
+                    <h4>Bali: A Tropical Escape</h4>
+                    <p>Immerse yourself in the tranquil beauty and culture of Bali.</p>
+                    <div class="more-content" style="display: none;">
+                        <p>This Indonesian island is famous for its volcanic mountains, stunning rice terraces, beautiful beaches, and rich coral reefs. It attracts surfers, yoga lovers, and those looking to relax in high-end resorts.</p>
+                    </div>
+                    <button class="btn btn-primary read-more-btn">Read More</button>
+                </div>
+                <div class="col-md-4">
+                    <h4>Adventures in the Sahara</h4>
+                    <p>Exploring the grandeur of the largest desert on Earth.</p>
+                    <div class="more-content" style="display: none;">
+                        <p>The Sahara Desert, the biggest hot desert globally, spans much of North Africa and features awe-inspiring sand dunes, ancient rock formations, and unique cultural encounters with nomadic tribes.</p>
+                    </div>
+                    <button class="btn btn-primary read-more-btn">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 2..Destination Section -->
+<section id="destinations" class="destinations-section">
+    <div class="container">
+        <h2>Travel Destinations</h2>
+        <p>Exciting travel Spots from sunny beaches to lively cities..</p>
+        <article>
+            <h4>Paris, France</h4>
+            <p>The charming city known for its iconic landmarks and lively culture..</p>
+        </article>
+        <article>
+            <h4>Kyoto, Japan</h4>
+            <p>Discover the ancient temples and rich culture of Japan.</p>
+        </article>
+        <article>
+            <h4>Cape Town, South Africa</h4>
+            <p>Experience the breathtaking coastline and mountains of South Africa.</p>
+        </article>
+    </div>
+</section>
+
+<!-- 3..Travel Tips Section -->
+<section id="tips" class="tips-section">
+    <div class="container">
+        <h2>Travel Tips</h2>
+        <p>Helpful advice and tips for making your travel experiences...</p>
+        <ul>
+            <li>Pack Light: Only carry essentials and versatile clothing to avoid overpacking.</li>
+            <li>Carry a Reusable Water Bottle: One will not forget to keep him or herself hydrated while also saving the plastic.</li>
+            <li>Have a Digital Copy of Important Documents: Take pictures or scan your passport, tickets, and travel insurance</li>
+            <li>Make Use of Local Public Transport: It is usually cheaper; it gives one the feel of the local way of life.</li>
+            <li>Get Travel Insurance: You never know what may happen when you are traveling; medical emergencies can strike or luggage can get lost.</li>
+            <li>Learn a few key phrases in local language: These may include word of welcome, basic greetings and more to start.</li>
+            <li>Let your bank know you are traveling: So your credit card doesn't get put on hold due to international transactions</li>
+            <li>Pack a portable first aid kit: Include band aids, pain relievers, and any prescription medications you might take.</li>
+            <li>Dress like the locals: Avoid standing out in a crowd as a tourist by dressing like everyone else.</li>
+            <li>Avoid being a victim of local scams: Understand common scams in that area to avoid falling into their traps.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- 4..Gallery Section -->
+<section id="gallery" class="gallery-section">
+    <div class="container">
+        <h2>Photo Gallery</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://media.gadventures.com/media-server/cache/a4/b7/a4b727085661bdaa6cc94e84fbe21039.jpg" class="d-block w-100" alt="Travel Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.wallpapersden.com/image/download/the-alps_a2huZ2mUmZqaraWkpJRobmxnrWdraW0.jpg" class="d-block w-100" alt="Travel Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://w0.peakpx.com/wallpaper/106/346/HD-wallpaper-beach-ocean-bali-tropical-indonesia-resort-pool.jpg" class="d-block w-100" alt="Travel Image 3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- 5..Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <p id="formFeedback" style="display: none; color: green;">Thank you for reaching out!</p>
+    </div>
+</section>
+
+<!-- 6..Footer -->
+<footer class="footer">
+    <p>&copy; 2024 My Travel Blog</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Custom JavaScript -->
+<script>
+    // Form validation and submission
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        document.getElementById('formFeedback').style.display = 'block';
+        // Reset form fields
+        document.getElementById('contactForm').reset();
+    });
+</script>
+<script>
+    // JavaScript for "Read More" button functionality
+    document.querySelectorAll('.read-more-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const moreContent = this.previousElementSibling;
+            if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+                moreContent.style.display = 'block';
+                this.textContent = 'Read Less';
+            } else {
+                moreContent.style.display = 'none';
+                this.textContent = 'Read More';
+            }
+        });
+    });
+</script>
+    
+</body>
+</html>
